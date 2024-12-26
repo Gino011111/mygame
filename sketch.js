@@ -27,29 +27,29 @@ function preload() {
   );
   
   // 載入玩家1圖片
-  sprites.player1.idle.img = loadImage('player 1/1/all.png',
+  sprites.player1.idle.img = loadImage('player1/all.1.png',
     () => console.log('Player1 idle loaded'),
     () => console.log('Player1 idle 載入失敗')
   );
-  sprites.player1.walk.img = loadImage('player 1/2/all.png',
+  sprites.player1.walk.img = loadImage('player1/all.2.png',
     () => console.log('Player1 walk loaded'),
     () => console.log('Player1 walk 載入失敗')
   );
-  sprites.player1.jump.img = loadImage('player 1/3/all.png',
+  sprites.player1.jump.img = loadImage('player1/all.3.png',
     () => console.log('Player1 jump loaded'),
     () => console.log('Player1 jump 載入失敗')
   );
   
   // 載入玩家2圖片
-  sprites.player2.idle.img = loadImage('player 2/1/all.png',
+  sprites.player2.idle.img = loadImage('player 2/all.1.png',
     () => console.log('Player2 idle loaded'),
     () => console.log('Player2 idle 載入失敗')
   );
-  sprites.player2.walk.img = loadImage('player 2/2/all.png',
+  sprites.player2.walk.img = loadImage('player 2/all.2.png',
     () => console.log('Player2 walk loaded'),
     () => console.log('Player2 walk 載入失敗')
   );
-  sprites.player2.jump.img = loadImage('player 2/3/all.png',
+  sprites.player2.jump.img = loadImage('player 2/all.3.png',
     () => console.log('Player2 jump loaded'),
     () => console.log('Player2 jump 載入失敗')  
   );
