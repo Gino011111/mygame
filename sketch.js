@@ -41,15 +41,15 @@ function preload() {
   );
   
   // 載入玩家2圖片
-  sprites.player2.idle.img = loadImage('player 2/all.1.png',
+  sprites.player2.idle.img = loadImage('player2/all.1.png',
     () => console.log('Player2 idle loaded'),
     () => console.log('Player2 idle 載入失敗')
   );
-  sprites.player2.walk.img = loadImage('player 2/all.2.png',
+  sprites.player2.walk.img = loadImage('player2/all.2.png',
     () => console.log('Player2 walk loaded'),
     () => console.log('Player2 walk 載入失敗')
   );
-  sprites.player2.jump.img = loadImage('player 2/all.3.png',
+  sprites.player2.jump.img = loadImage('player2/all.3.png',
     () => console.log('Player2 jump loaded'),
     () => console.log('Player2 jump 載入失敗')  
   );
